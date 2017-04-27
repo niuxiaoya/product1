@@ -16,6 +16,11 @@ angular.module("app")
                 templateUrl:"page/group.html"
             })
             .state({
+                name:"see",
+                url:"/see",
+                templateUrl:"page/see.html"
+            })
+            .state({
                 name:"praty",
                 url:"/praty",
                 templateUrl:"page/praty.html"
