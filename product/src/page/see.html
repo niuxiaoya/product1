@@ -1,58 +1,88 @@
-<div role="tabpanel" class="tab-pane" id="profile">
+<div class="container fluids">
+    <div class="row">
+        <ol class="breadcrumb">
+            <span class="active">当前位置：</span>
+            <li class="active">首页</li>
+            <li class="active">社会养老</li>
+            <li class="active">离休退休</li>
+        </ol>
+        <div>
+            <dl class="dl-icon">
+                <dt>
+                    <img src="img/1.png" style="background: #01b0b9;padding: 10px;border-radius: 5px">
+                </dt>
+                <dd>
+                    <h3>社会生日会</h3>
+                    <p>提供社区五保供养申请的办理指南，质疑事项，办理机构等相关的服务</p>
+                </dd>
+            </dl>
 
-    <!--<div class="title">-->
-    <!--<h4>基本信息</h4>-->
-    <!--<button type="button" class="btn btn-info btns">返回</button>-->
-    <!--</div>-->
-    <input-file></input-file>
+        </div>
+    </div>
 </div>
-<!--<div class="row">-->
-    <!--<div class="col-md-10 col-xm-10 col-sm-10">-->
-        <!--<div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">-->
-
-            <!--<h4 id="info2">-->
-                <!--&lt;!&ndash;<div class="title">&ndash;&gt;-->
-                    <!--&lt;!&ndash;<h4><b>基本信息</b></h4>&ndash;&gt;-->
-                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                <!--<div role="tabpanel" class="tab-pane" id="messages">-->
-                    <!--<div class="title"><h4>请输入栏目</h4></div>-->
-                    <!--&lt;!&ndash;<div class="input-file">&ndash;&gt;-->
-                    <!--&lt;!&ndash;<label for="input1"></label>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<input type="file" id="input1">&ndash;&gt;-->
-                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                    <!--<input-file></input-file>-->
-                <!--</div>-->
-            <!--</h4>-->
-            <!--<h5>活动名称：春暖花开4月生日会</h5>-->
-            <!--<h5>活动时间：2017年11月12日</h5>-->
-            <!--<h5>地址：南风里小区3号楼4门 301</h5>-->
-            <!--<h4 id="name2">-->
-                <!--<div class="title">-->
-                    <!--<h4><b>请输入栏目名称</b></h4>-->
-                <!--</div>-->
-            <!--</h4>-->
-            <!--<input-file></input-file>-->
-            <!--<h4 id="resident2">-->
-                <!--<div class="title">-->
-                    <!--<h4><b>评论区</b></h4>-->
-                <!--</div>-->
-            <!--</h4>-->
-            <!--<div>-->
-                <!--<button type="button" class="btn btn-info btnss">发送</button>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="col-md-2 col-xm-2 col-sm-2">-->
-        <!--<nav id="navbar-example2" class="navbar nav-side">-->
-            <!--<div class="timeline-wrap">-->
-                <!--<ul class="nav navbar-nav time-line">-->
-                    <!--<span class="top"></span>-->
-                    <!--<li class=""><a href="#info2">1 基本信息</a></li>-->
-                    <!--<li class=""><a href="#name2">2 请输入栏目名称</a></li>-->
-                    <!--<li class=""><a href="#resident2">3 居民预约</a></li>-->
-                    <!--<span class="bottom"></span>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</nav>-->
-    <!--</div>-->
-<!--</div>-->
+<div class="container navbar-info">
+    <div>
+        <div class="tab-content">
+            <div class="row">
+                <div class="col-md-10 col-xm-10 col-sm-10">
+                    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
+                        <h4 id="info1">
+                            <div class="title">
+                                <h4><b>基本信息</b></h4>
+                                <button type="button" class="btn btn-info btns" ui-sref="group">返回</button>
+                            </div>
+                        </h4>
+                        <h5>活动名称：春暖花开4月生日会</h5>
+                        <h5>活动时间：2017年11月12日</h5>
+                        <h5>地址：南风里小区3号楼4门 301</h5>
+                        <h4 id="name1">
+                            <div class="title">
+                                <h4><b>请输入栏目名称</b></h4>
+                            </div>
+                        </h4>
+                        <input-file></input-file>
+                        <h4 id="resident1">
+                            <div class="title">
+                                <h4><b>居民预约</b></h4>
+                            </div>
+                        </h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="cc">姓名</p>
+                                    <input type="text" class="form-control" placeholder="Text input">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <p class="cc">电话</p>
+                                    <input type="text" class="form-control" placeholder="Text input">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inputr">
+                            <p class="cc">备注</p>
+                            <input type="text" class="form-control" placeholder="文本框内容">
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-info btnss">发送</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-xm-2 col-sm-2">
+                    <nav id="navbar-example3" class="navbar nav-side">
+                        <div class="timeline-wrap">
+                            <ul class="nav navbar-nav time-line">
+                                <span class="top"></span>
+                                <li class=""><a href="#info1">1 基本信息</a></li>
+                                <li class=""><a href="#name1">2 请输入栏目名称</a></li>
+                                <li class=""><a href="#resident1">3 居民预约</a></li>
+                                <span class="bottom"></span>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+             </div>
+        </div>
+        </div>
+    </div>
