@@ -191,3 +191,68 @@ body
     font-weight: bold;
     margin-top: 0;
 }
+.nav-pills li{
+    position: relative;
+}
+.up-arrow:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    margin-top: -12px;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-bottom-color: #000000;
+}
+
+.down-arrow:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    margin-top: -4px;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-top-color: #000000;
+}
+.dls-img{
+    box-shadow: 1px 1px 10px #ccc;
+    border: 1px solid #999;
+}
+.dls-img dt{
+    height: auto;
+    background: #f2f2f2;
+    padding: 50px 60px;
+    position: relative;
+}
+.dls-img dt{
+    background: #f2f2f2 url("../img/default.png") center center no-repeat;
+    /*background: #EFEDED url("../img/default.png") center center no-repeat;*/
+}
+.dls-img dt b{
+    position: absolute;
+    top: 0;
+    z-index: 31;
+    left: 0;
+    width: 76px;
+    height: 77px;
+    background: dodgerblue;
+    /*transform: rotate(30deg);*/
+}
+.dls-img dt b span{
+    display: inline-block;
+    transform: translate(29px,45px);
+    transform: rotate(130deg);
+}
+.dls-img dd{
+    border-top: 1px solid #999;
+    padding: 10px;
+}
+
+/*<img src="img/default.png">*/
