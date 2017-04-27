@@ -81,69 +81,43 @@
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="profile">
-                <div class="row">
-                    <div class="col-md-10 col-xm-10 col-sm-10">
-                        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
-                            <h4 id="info1">
-                                <div class="title">
-                                <h4><b>基本信息</b></h4>
-                                <button type="button" class="btn btn-info btns">返回</button>
-                                </div>
-                            </h4>
-                            <h5>活动名称：春暖花开4月生日会</h5>
-                            <h5>活动时间：2017年11月12日</h5>
-                            <h5>地址：南风里小区3号楼4门 301</h5>
-                            <h4 id="name1">
-                                <div class="title">
-                                    <h4><b>请输入栏目名称</b></h4>
-                                </div>
-                            </h4>
-                            <input-file></input-file>
-                            <h4 id="resident1">
-                                <div class="title">
-                                    <h4><b>居民预约</b></h4>
-                                </div>
-                            </h4>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div>
-                                        <p class="cc">姓名</p>
-                                        <input type="text" class="form-control" placeholder="Text input">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div>
-                                        <p class="cc">电话</p>
-                                        <input type="text" class="form-control" placeholder="Text input">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="inputr">
-                                <p class="cc">备注</p>
-                                <input type="text" class="form-control" placeholder="文本框内容">
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-info btnss">发送</button>
-                            </div>
-                        </div>
+                <h4 id="info1">
+                    <div class="title">
+                        <h4><b>活动列表</b></h4>
                     </div>
-                    <div class="col-md-2 col-xm-2 col-sm-2">
-                        <nav id="navbar-example3" class="navbar nav-side">
-                            <div class="timeline-wrap">
-                                <ul class="nav navbar-nav time-line">
-                                    <span class="top"></span>
-                                    <li class=""><a href="#info1">1 基本信息</a></li>
-                                    <li class=""><a href="#name1">2 请输入栏目名称</a></li>
-                                    <li class=""><a href="#resident1">3 居民预约</a></li>
-                                    <span class="bottom"></span>
-                                </ul>
-                            </div>
-                        </nav>
+                </h4>
+                <div class="row">
+                    <div class="col-md-4 col-xm-4 col-sm-4">
+                        <dl class="dls-img" ui-sref="see">
+                            <dt></dt>
+                            <dd>
+                                <h5>春暖花开社区生日会</h5>
+                                <p>2017年3月21日  三金社区11号楼2门301</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-4 col-xm-4 col-sm-4">
+                        <dl class="dls-img" ui-sref="see">
+                            <dt></dt>
+                            <dd>
+                                <h5>春暖花开社区生日会</h5>
+                                <p>2017年3月21日  三金社区11号楼2门301</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-4 col-xm-4 col-sm-4">
+                        <dl class="dls-img" ui-sref="see">
+                            <dt></dt>
+                            <dd>
+                                <h5>春暖花开社区生日会</h5>
+                                <p>2017年3月21日  三金社区11号楼2门301</p>
+                            </dd>
+                        </dl>
                     </div>
                 </div>
-
                 <!--<input-file></input-file>-->
             </div>
+            <ui-view></ui-view>
             <div role="tabpanel" class="tab-pane" id="messages">
                 <div class="row">
                     <div class="col-md-10 col-xm-10 col-sm-10">
