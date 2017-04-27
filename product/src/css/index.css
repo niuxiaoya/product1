@@ -1,0 +1,189 @@
+body
+{
+    background: #f4f4f4;
+    position: relative;
+}
+.fluids
+{
+    margin-top: -20px;
+}
+.fluid
+{
+    height: 80px;
+
+    border: none;
+    background: #fff;
+}
+.row-height ul
+{
+    margin-top: 20px;
+}
+.aa
+{
+    margin-top: 17px;
+}
+.dls{
+    padding: 36px;
+}
+.nav-tabs{
+   border: none;
+}
+.title{
+    padding-top: 20px;
+    border-bottom: 1px solid #D6D9DE;
+    margin-bottom: 10px;
+}
+.title b{
+    color: #333;
+    font-size: 18px;
+}
+.title h5{
+    color: #000000;
+}
+.tab-pane{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    cursor: default;
+    color: #555;
+    border: 1px solid #fff;
+    border-bottom-color: transparent;
+    background-color: #fff;
+}
+.tab-content{
+    width: 100%;height: auto;background: #fff
+}
+.input-file>input{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.input-file>label{
+    width: 100%;
+    min-height: 250px;
+    border: 1px solid #D6D9DE;
+    background: #EFEDED url("../img/default.png") center center no-repeat;
+}
+.btns{
+    float: right;
+    margin-top: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.btnss{
+    float: right;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.timeline-wrap{
+    position: relative;
+    min-height: 250px;
+    border-left: 2px solid #aaa;
+    padding: 30px 21px 50px 0;
+    margin: 30px 0;
+}
+.timeline-wrap span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #aaa;
+    border-radius: 100%;
+}
+.top{
+    left: -6px;
+    top: 0;
+}
+.bottom{
+    left: -6px;
+    bottom: 0;
+}
+.time-line li{
+    position: relative;
+}
+.time-line li:after{
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: #aaa;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    left: -6px;
+    top: 20px;
+}
+.time-line li.active:after{
+    content: "";
+    background: dodgerblue;
+}
+.time-line  li:hover:after {
+    text-decoration: none;
+    background-color: dodgerblue;
+}
+.scrollspy-example{
+    height: 300px;
+    overflow: auto;
+    position: relative;
+}
+.tab-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cc{
+    font-size: 10px;
+    color: #979292;
+    margin-top: 10px;
+}
+.inputr{
+    margin-bottom: 30px;
+}
+.infoss{
+    margin-left: -40px;
+}
+.infoss li{
+    border-bottom: 1px solid #aaa;
+    line-height: 35px;
+    clear: both;
+}
+.infoss li span{
+    float: left;
+}
+.infoss li time{
+    float: right;
+}
+.infoss li button{
+    float: right;
+    background: none;
+    border: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+.send-btn{
+    padding-top: 30px
+}
+.dl-icon{
+    height: 110px;
+    background: #fff;
+    border-bottom: 5px solid #aaa;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.dl-icon  dt,.dl-icon  dt img{
+    width: 55px;
+    height: 55px;
+}
+.dl-icon  dt img{
+    padding: 5px;
+}
+.dl-icon  dt{
+    float: left;
+    margin-right: 30px;
+}
+.dl-icon  dd h3{
+    color: dodgerblue;
+    font-weight: bold;
+    margin-top: 0;
+}
